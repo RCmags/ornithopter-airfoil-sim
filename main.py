@@ -228,8 +228,8 @@ axis2.set_ylabel("y-component")
 
 # 3. display
 if SAVE_FIGURES:
-	anim.save("airfoil_motion.gif", writer=animation.PillowWriter(fps=10), dpi=100 ) 
-	figure1.savefig('mean_force.jpg')
+	anim.save("figures/airfoil_motion.gif", writer=animation.PillowWriter(fps=10), dpi=100 ) 
+	figure1.savefig('figures/mean_force.jpg')
 
 plt.tight_layout()
 plt.show()
