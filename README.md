@@ -1,6 +1,6 @@
 # Ornithopter airfoil simulator
 
-This program calculates the motion of an airfoil attached to an ornithopter wing. The airfoil undergoes a sinusoidal oscillation and its angle is found through a torque balance. With this angle, the lift and thrust of the airfoil are calculated along with their mean values. It is assumed the airfoil is subject to the inertial reaction of its mass, an aerodynamic force, and a damped angular spring. Each of these forces/torques can be adjusted along with the amplitude and frequency of the oscillation. Therefore, it is possible to try out different constraints and observe how they affect lift and thrust.  
+This program calculates the motion of an airfoil attached to an ornithopter wing. The airfoil undergoes a sinusoidal oscillation and its angle is found through a torque balance. With this angle, the lift and drag of the airfoil are calculated along with their subsequent torque. It's assumed the airfoil is subject to the inertial reaction of its mass, an aerodynamic force, and a damped angular spring. Each of these forces/torques can be adjusted along with the amplitude and frequency of the oscillation. Therefore, it's possible to try out different parameters and observe how they affect the x and y components of the aerodynamic force.  
 
 ### Requirements
 The scripts were written in [Python 3.9.5](https://www.python.org/downloads/) and require the following libraries: 
